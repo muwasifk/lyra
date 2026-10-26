@@ -3,6 +3,8 @@
   <h2>Lets You Run Anything</h2>
 </div>
 
+https://github.com/user-attachments/assets/71649956-1f7e-4edd-bf66-b01e4ed2d13b
+
 Run a Hugging Face language model that's too big for one machine by splitting its layers across several of them: a gaming PC, a MacBook, a friend's laptop, all over [Tailscale](https://tailscale.com). Each machine runs one block of the model's layers. A token travels around the machines like a relay baton, and the machine you're typing on samples the next token and streams the reply into a terminal chat app.
 
 - **Pipeline parallelism over a normal network.** Layers 0–20 can live on an NVIDIA GPU and layers 21–39 on an Apple Silicon Mac. Per token, only one 8 KB hidden state crosses each network hop.
